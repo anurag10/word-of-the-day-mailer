@@ -27,7 +27,7 @@ def send_simple_message(bodyDict):
     del bodyDict["subject"]
     return requests.post(
         "https://api.mailgun.net/v3/sandboxb4826aa6e193438ea9708f7b575235d9.mailgun.org/messages",
-        auth=("api", "key-f7416e73175aeaeb34249e9cc27ffc28"),
+        auth=("api", "KEY"),
         data={"from": "Mailgun Sandbox <postmaster@sandboxb4826aa6e193438ea9708f7b575235d9.mailgun.org>",
               # "to": "anurag soni <anuragsoni39@yahoo.com>",
               "to": "<anuragiit2013@gmail.com>,<anuragsoni39@yahoo.com>",
