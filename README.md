@@ -1,5 +1,5 @@
 #ABOUT
-- This program scrapes word of the day from merriam webster website and using mailgun API sends it to mentioned emails. To run the script daily you will need to add a crontab to your system.
+- This program scrapes word of the day from merriam webster website and using mailgun API sends it to mentioned emails. To run the script daily you will need to add a crontab to your system. Sin in to an account on Mailgun and get the authentication key. Replace this key with KEY on line 30 of the script. Then you would be good to go.  
 
 #REQUIREMENTS
 - python >= 2.7
